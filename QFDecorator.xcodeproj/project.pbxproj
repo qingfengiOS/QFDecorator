@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD48B52C21DDA7D000A4EDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B52B21DDA7D000A4EDAC /* AppDelegate.m */; };
+		FD48B52F21DDA7D000A4EDAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B52E21DDA7D000A4EDAC /* ViewController.m */; };
+		FD48B53221DDA7D000A4EDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48B53021DDA7D000A4EDAC /* Main.storyboard */; };
+		FD48B53421DDA7D100A4EDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD48B53321DDA7D100A4EDAC /* Assets.xcassets */; };
+		FD48B53721DDA7D100A4EDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48B53521DDA7D100A4EDAC /* LaunchScreen.storyboard */; };
+		FD48B53A21DDA7D100A4EDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B53921DDA7D100A4EDAC /* main.m */; };
+		FD48B54421DDA7D100A4EDAC /* QFDecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B54321DDA7D100A4EDAC /* QFDecoratorTests.m */; };
+		FD48B54F21DDA7D100A4EDAC /* QFDecoratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B54E21DDA7D100A4EDAC /* QFDecoratorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD48B54021DDA7D100A4EDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD48B51F21DDA7D000A4EDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD48B52621DDA7D000A4EDAC;
+			remoteInfo = QFDecorator;
+		};
+		FD48B54B21DDA7D100A4EDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD48B51F21DDA7D000A4EDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD48B52621DDA7D000A4EDAC;
+			remoteInfo = QFDecorator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD48B52721DDA7D000A4EDAC /* QFDecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFDecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD48B52A21DDA7D000A4EDAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD48B52B21DDA7D000A4EDAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD48B52D21DDA7D000A4EDAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD48B52E21DDA7D000A4EDAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD48B53121DDA7D000A4EDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD48B53321DDA7D100A4EDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD48B53621DDA7D100A4EDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD48B53821DDA7D100A4EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD48B53921DDA7D100A4EDAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD48B53F21DDA7D100A4EDAC /* QFDecoratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFDecoratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD48B54321DDA7D100A4EDAC /* QFDecoratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFDecoratorTests.m; sourceTree = "<group>"; };
+		FD48B54521DDA7D100A4EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD48B54A21DDA7D100A4EDAC /* QFDecoratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFDecoratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD48B54E21DDA7D100A4EDAC /* QFDecoratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFDecoratorUITests.m; sourceTree = "<group>"; };
+		FD48B55021DDA7D100A4EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD48B52421DDA7D000A4EDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B53C21DDA7D100A4EDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B54721DDA7D100A4EDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD48B51E21DDA7D000A4EDAC = {
+			isa = PBXGroup;
+			children = (
+				FD48B52921DDA7D000A4EDAC /* QFDecorator */,
+				FD48B54221DDA7D100A4EDAC /* QFDecoratorTests */,
+				FD48B54D21DDA7D100A4EDAC /* QFDecoratorUITests */,
+				FD48B52821DDA7D000A4EDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD48B52821DDA7D000A4EDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B52721DDA7D000A4EDAC /* QFDecorator.app */,
+				FD48B53F21DDA7D100A4EDAC /* QFDecoratorTests.xctest */,
+				FD48B54A21DDA7D100A4EDAC /* QFDecoratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD48B52921DDA7D000A4EDAC /* QFDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B52A21DDA7D000A4EDAC /* AppDelegate.h */,
+				FD48B52B21DDA7D000A4EDAC /* AppDelegate.m */,
+				FD48B52D21DDA7D000A4EDAC /* ViewController.h */,
+				FD48B52E21DDA7D000A4EDAC /* ViewController.m */,
+				FD48B53021DDA7D000A4EDAC /* Main.storyboard */,
+				FD48B53321DDA7D100A4EDAC /* Assets.xcassets */,
+				FD48B53521DDA7D100A4EDAC /* LaunchScreen.storyboard */,
+				FD48B53821DDA7D100A4EDAC /* Info.plist */,
+				FD48B53921DDA7D100A4EDAC /* main.m */,
+			);
+			path = QFDecorator;
+			sourceTree = "<group>";
+		};
+		FD48B54221DDA7D100A4EDAC /* QFDecoratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B54321DDA7D100A4EDAC /* QFDecoratorTests.m */,
+				FD48B54521DDA7D100A4EDAC /* Info.plist */,
+			);
+			path = QFDecoratorTests;
+			sourceTree = "<group>";
+		};
+		FD48B54D21DDA7D100A4EDAC /* QFDecoratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B54E21DDA7D100A4EDAC /* QFDecoratorUITests.m */,
+				FD48B55021DDA7D100A4EDAC /* Info.plist */,
+			);
+			path = QFDecoratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD48B52621DDA7D000A4EDAC /* QFDecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD48B55321DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecorator" */;
+			buildPhases = (
+				FD48B52321DDA7D000A4EDAC /* Sources */,
+				FD48B52421DDA7D000A4EDAC /* Frameworks */,
+				FD48B52521DDA7D000A4EDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFDecorator;
+			productName = QFDecorator;
+			productReference = FD48B52721DDA7D000A4EDAC /* QFDecorator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD48B53E21DDA7D100A4EDAC /* QFDecoratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD48B55621DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecoratorTests" */;
+			buildPhases = (
+				FD48B53B21DDA7D100A4EDAC /* Sources */,
+				FD48B53C21DDA7D100A4EDAC /* Frameworks */,
+				FD48B53D21DDA7D100A4EDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD48B54121DDA7D100A4EDAC /* PBXTargetDependency */,
+			);
+			name = QFDecoratorTests;
+			productName = QFDecoratorTests;
+			productReference = FD48B53F21DDA7D100A4EDAC /* QFDecoratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD48B54921DDA7D100A4EDAC /* QFDecoratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD48B55921DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecoratorUITests" */;
+			buildPhases = (
+				FD48B54621DDA7D100A4EDAC /* Sources */,
+				FD48B54721DDA7D100A4EDAC /* Frameworks */,
+				FD48B54821DDA7D100A4EDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD48B54C21DDA7D100A4EDAC /* PBXTargetDependency */,
+			);
+			name = QFDecoratorUITests;
+			productName = QFDecoratorUITests;
+			productReference = FD48B54A21DDA7D100A4EDAC /* QFDecoratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD48B51F21DDA7D000A4EDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qingfengiOS;
+				TargetAttributes = {
+					FD48B52621DDA7D000A4EDAC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FD48B53E21DDA7D100A4EDAC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD48B52621DDA7D000A4EDAC;
+					};
+					FD48B54921DDA7D100A4EDAC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD48B52621DDA7D000A4EDAC;
+					};
+				};
+			};
+			buildConfigurationList = FD48B52221DDA7D000A4EDAC /* Build configuration list for PBXProject "QFDecorator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD48B51E21DDA7D000A4EDAC;
+			productRefGroup = FD48B52821DDA7D000A4EDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD48B52621DDA7D000A4EDAC /* QFDecorator */,
+				FD48B53E21DDA7D100A4EDAC /* QFDecoratorTests */,
+				FD48B54921DDA7D100A4EDAC /* QFDecoratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD48B52521DDA7D000A4EDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48B53721DDA7D100A4EDAC /* LaunchScreen.storyboard in Resources */,
+				FD48B53421DDA7D100A4EDAC /* Assets.xcassets in Resources */,
+				FD48B53221DDA7D000A4EDAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B53D21DDA7D100A4EDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B54821DDA7D100A4EDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD48B52321DDA7D000A4EDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48B52F21DDA7D000A4EDAC /* ViewController.m in Sources */,
+				FD48B53A21DDA7D100A4EDAC /* main.m in Sources */,
+				FD48B52C21DDA7D000A4EDAC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B53B21DDA7D100A4EDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48B54421DDA7D100A4EDAC /* QFDecoratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48B54621DDA7D100A4EDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48B54F21DDA7D100A4EDAC /* QFDecoratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD48B54121DDA7D100A4EDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD48B52621DDA7D000A4EDAC /* QFDecorator */;
+			targetProxy = FD48B54021DDA7D100A4EDAC /* PBXContainerItemProxy */;
+		};
+		FD48B54C21DDA7D100A4EDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD48B52621DDA7D000A4EDAC /* QFDecorator */;
+			targetProxy = FD48B54B21DDA7D100A4EDAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD48B53021DDA7D000A4EDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD48B53121DDA7D000A4EDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD48B53521DDA7D100A4EDAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD48B53621DDA7D100A4EDAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD48B55121DDA7D100A4EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD48B55221DDA7D100A4EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD48B55421DDA7D100A4EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecorator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD48B55521DDA7D100A4EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecorator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD48B55721DDA7D100A4EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecoratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecoratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFDecorator.app/QFDecorator";
+			};
+			name = Debug;
+		};
+		FD48B55821DDA7D100A4EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecoratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecoratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFDecorator.app/QFDecorator";
+			};
+			name = Release;
+		};
+		FD48B55A21DDA7D100A4EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecoratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecoratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFDecorator;
+			};
+			name = Debug;
+		};
+		FD48B55B21DDA7D100A4EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFDecoratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFDecoratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFDecorator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD48B52221DDA7D000A4EDAC /* Build configuration list for PBXProject "QFDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD48B55121DDA7D100A4EDAC /* Debug */,
+				FD48B55221DDA7D100A4EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD48B55321DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD48B55421DDA7D100A4EDAC /* Debug */,
+				FD48B55521DDA7D100A4EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD48B55621DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecoratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD48B55721DDA7D100A4EDAC /* Debug */,
+				FD48B55821DDA7D100A4EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD48B55921DDA7D100A4EDAC /* Build configuration list for PBXNativeTarget "QFDecoratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD48B55A21DDA7D100A4EDAC /* Debug */,
+				FD48B55B21DDA7D100A4EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD48B51F21DDA7D000A4EDAC /* Project object */;
+}
