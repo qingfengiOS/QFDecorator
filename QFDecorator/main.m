@@ -2,7 +2,7 @@
 //  main.m
 //  QFDecorator
 //
-//  Created by 李一平 on 2019/1/3.
+//  Created by 情风 on 2019/1/3.
 //  Copyright © 2019 qingfengiOS. All rights reserved.
 //
 

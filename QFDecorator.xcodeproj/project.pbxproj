@@ -15,6 +15,11 @@
 		FD48B53A21DDA7D100A4EDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B53921DDA7D100A4EDAC /* main.m */; };
 		FD48B54421DDA7D100A4EDAC /* QFDecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B54321DDA7D100A4EDAC /* QFDecoratorTests.m */; };
 		FD48B54F21DDA7D100A4EDAC /* QFDecoratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B54E21DDA7D100A4EDAC /* QFDecoratorUITests.m */; };
+		FD48B56721DDA9A800A4EDAC /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B56621DDA9A800A4EDAC /* ImageFilter.m */; };
+		FD48B56A21DDAAFD00A4EDAC /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B56921DDAAFD00A4EDAC /* ImageTransformFilter.m */; };
+		FD48B56D21DDAB9300A4EDAC /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B56C21DDAB9300A4EDAC /* ImageShadowFilter.m */; };
+		FD48B57021DDAC6000A4EDAC /* QFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B56F21DDAC6000A4EDAC /* QFImage.m */; };
+		FD48B57321DDACCA00A4EDAC /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD48B57221DDACCA00A4EDAC /* DecoratorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		FD48B54A21DDA7D100A4EDAC /* QFDecoratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFDecoratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD48B54E21DDA7D100A4EDAC /* QFDecoratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFDecoratorUITests.m; sourceTree = "<group>"; };
 		FD48B55021DDA7D100A4EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD48B56421DDA96E00A4EDAC /* ImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		FD48B56521DDA9A800A4EDAC /* ImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		FD48B56621DDA9A800A4EDAC /* ImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		FD48B56821DDAAFD00A4EDAC /* ImageTransformFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		FD48B56921DDAAFD00A4EDAC /* ImageTransformFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		FD48B56B21DDAB9300A4EDAC /* ImageShadowFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		FD48B56C21DDAB9300A4EDAC /* ImageShadowFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		FD48B56E21DDAC6000A4EDAC /* QFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFImage.h; sourceTree = "<group>"; };
+		FD48B56F21DDAC6000A4EDAC /* QFImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFImage.m; sourceTree = "<group>"; };
+		FD48B57121DDACCA00A4EDAC /* DecoratorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorView.h; sourceTree = "<group>"; };
+		FD48B57221DDACCA00A4EDAC /* DecoratorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,16 @@
 		FD48B52921DDA7D000A4EDAC /* QFDecorator */ = {
 			isa = PBXGroup;
 			children = (
+				FD48B56221DDA93900A4EDAC /* Component(抽象接口) */,
+				FD48B56021DDA93900A4EDAC /* ConcreteComponent(具体被装饰对象) */,
+				FD48B56121DDA93900A4EDAC /* ConcreteDecorator(装饰者具体类) */,
+				FD48B56321DDA93900A4EDAC /* Decorator(装饰者抽象类) */,
 				FD48B52A21DDA7D000A4EDAC /* AppDelegate.h */,
 				FD48B52B21DDA7D000A4EDAC /* AppDelegate.m */,
 				FD48B52D21DDA7D000A4EDAC /* ViewController.h */,
 				FD48B52E21DDA7D000A4EDAC /* ViewController.m */,
+				FD48B57121DDACCA00A4EDAC /* DecoratorView.h */,
+				FD48B57221DDACCA00A4EDAC /* DecoratorView.m */,
 				FD48B53021DDA7D000A4EDAC /* Main.storyboard */,
 				FD48B53321DDA7D100A4EDAC /* Assets.xcassets */,
 				FD48B53521DDA7D100A4EDAC /* LaunchScreen.storyboard */,
@@ -130,6 +152,43 @@
 				FD48B55021DDA7D100A4EDAC /* Info.plist */,
 			);
 			path = QFDecoratorUITests;
+			sourceTree = "<group>";
+		};
+		FD48B56021DDA93900A4EDAC /* ConcreteComponent(具体被装饰对象) */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B56E21DDAC6000A4EDAC /* QFImage.h */,
+				FD48B56F21DDAC6000A4EDAC /* QFImage.m */,
+			);
+			path = "ConcreteComponent(具体被装饰对象)";
+			sourceTree = "<group>";
+		};
+		FD48B56121DDA93900A4EDAC /* ConcreteDecorator(装饰者具体类) */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B56821DDAAFD00A4EDAC /* ImageTransformFilter.h */,
+				FD48B56921DDAAFD00A4EDAC /* ImageTransformFilter.m */,
+				FD48B56B21DDAB9300A4EDAC /* ImageShadowFilter.h */,
+				FD48B56C21DDAB9300A4EDAC /* ImageShadowFilter.m */,
+			);
+			path = "ConcreteDecorator(装饰者具体类)";
+			sourceTree = "<group>";
+		};
+		FD48B56221DDA93900A4EDAC /* Component(抽象接口) */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B56421DDA96E00A4EDAC /* ImageComponent.h */,
+			);
+			path = "Component(抽象接口)";
+			sourceTree = "<group>";
+		};
+		FD48B56321DDA93900A4EDAC /* Decorator(装饰者抽象类) */ = {
+			isa = PBXGroup;
+			children = (
+				FD48B56521DDA9A800A4EDAC /* ImageFilter.h */,
+				FD48B56621DDA9A800A4EDAC /* ImageFilter.m */,
+			);
+			path = "Decorator(装饰者抽象类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD48B57321DDACCA00A4EDAC /* DecoratorView.m in Sources */,
+				FD48B56A21DDAAFD00A4EDAC /* ImageTransformFilter.m in Sources */,
+				FD48B57021DDAC6000A4EDAC /* QFImage.m in Sources */,
+				FD48B56D21DDAB9300A4EDAC /* ImageShadowFilter.m in Sources */,
 				FD48B52F21DDA7D000A4EDAC /* ViewController.m in Sources */,
+				FD48B56721DDA9A800A4EDAC /* ImageFilter.m in Sources */,
 				FD48B53A21DDA7D100A4EDAC /* main.m in Sources */,
 				FD48B52C21DDA7D000A4EDAC /* AppDelegate.m in Sources */,
 			);
